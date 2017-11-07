@@ -52,3 +52,4 @@ def step_impl(context, total):
 @then('the {play} is correct')
 def step_impl(context, play):
     assert (context.dealer_play == play)
+

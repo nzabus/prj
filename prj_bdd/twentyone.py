@@ -25,10 +25,17 @@ def _hand_total(hand):
 
 
 class Dealer():
+    '''
+    Class definition
+    '''
     def __init__(self):
         self.hand = []
 
     def new_round(self):
+        '''
+        Round function
+        :return:
+        '''
         self.hand = [_next_card(), _next_card()]
 
     def get_hand_total(self):
